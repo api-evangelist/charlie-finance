@@ -1,8 +1,29 @@
 aid: charlie-finance
 name: Charlie Finance
-description: Charlie Finance is a company surfaced as a portfolio company of uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+kind: company
+description: Charlie (Charlie Finance Co.) was a Pasadena, California fintech company
+  that operated a mobile banking app and debit-card program built specifically for
+  Americans aged 62 and older. Founded in 2021 by Kevin Nazemi, the service offered
+  Social Security deposits paid up to several days early, a FraudShield protection
+  layer tuned to scams that target seniors, 3% high-yield savings, no monthly fees
+  or minimums, a fee-free Allpoint ATM network of 55,000+ machines, custom photo debit
+  cards, and seven-day-a-week human customer support. Charlie is a portfolio company
+  of Uncork Capital and raised a $7.5M seed round followed by a $23M Series A. The
+  company discontinued service and permanently closed its debit-card program on January
+  22, 2026. Charlie is a consumer neobank and does not publish a public developer API,
+  documentation portal, or machine-readable API specification.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64c11f865f74f2ad8405ebdb/651ae5ffa00c6890f0cf7149_charlie-webclip.svg
 url: https://raw.githubusercontent.com/api-evangelist/charlie-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,45 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: discontinued
+x-discontinued: '2026-01-22'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Banking
+- Neobank
+- Seniors
+- Consumer Finance
+- Debit Card
+- Social Security
 apis: []
+common:
+- type: Website
+  url: https://charlie.com/
+- type: Blog
+  url: https://charlie.com/news
+- type: Support
+  url: mailto:support@charlie.com
+- type: Login
+  url: https://app.charlie.com/auth/login
+- type: TermsOfService
+  url: https://app.charlie.com/terms/TERMS_CONDITIONS
+- type: PrivacyPolicy
+  url: https://app.charlie.com/terms/PRIVACY_POLICY
+- type: LinkedIn
+  url: https://www.linkedin.com/company/charliefinancial
+- type: DomainSecurity
+  url: security/charlie-finance-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
