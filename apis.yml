@@ -12,6 +12,17 @@ description: Charlie (Charlie Finance Co.) was a Pasadena, California fintech co
   company discontinued service and permanently closed its debit-card program on January
   22, 2026. Charlie is a consumer neobank and does not publish a public developer API,
   documentation portal, or machine-readable API specification.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
